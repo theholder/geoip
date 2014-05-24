@@ -1,0 +1,13 @@
+{
+	"author":	"Sorch <support@sorch.info>",
+	"name": 	"geoip",
+	"description":	"Nodejs for geoip db at http://geoip.sorch.info/",
+	"homepage":	"http://geoip.sorch.info",
+	"version":	"0.0.1a",
+	"main":		"./index",
+
+	"dependencies": {
+		"request": "*",
+		"q": "*"
+	}
+}
