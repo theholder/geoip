@@ -15,7 +15,7 @@ var geoip = require('geoip');
 
 geoip.key().then(function(d, err) { 
 		geoip.geoip(d, "google.com").then(function(data, err) {
-			console.log(data["isp"]);
+			console.log(data.location);
 		})
 	}
 );
