@@ -4,7 +4,7 @@ geoip.js
 What is it?
 -----------
 A geoip database parser for the database hosted at http://geoip.sorch.info/:
-	- pulling information from the databse
+	- pulling information from the database
 	
 
 
