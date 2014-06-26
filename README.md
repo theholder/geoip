@@ -11,14 +11,14 @@ A geoip database parser for the database hosted at http://geoip.sorch.info/:
 How do I use it?
 ----------------
 
-var geoip = require('geoip');
+	var geoip = require('geoip');
 
-geoip.key().then(function(d, err) { 
-		geoip.geoip(d, "google.com").then(function(data, err) {
-			console.log(data.location);
-		})
-	}
-);
+	geoip.key().then(function(d, err) { 
+			geoip.geoip(d, "google.com").then(function(data, err) {
+				console.log(data.location);
+			})
+		}
+	);
 
 
 License
